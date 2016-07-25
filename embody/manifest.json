@@ -1,0 +1,27 @@
+{
+  "name": "Embody",
+  "version": "1",
+  "manifest_version": 2,
+
+  "description": "To encourage mindful use of technology and decrease mental exhaustion and physical and emotional disconnection from onself during prolonged use of electronics.",
+
+  "background": {
+    "page": "background.html"
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "offline_enabled": true,
+
+  "permissions": ["notifications"]
+}

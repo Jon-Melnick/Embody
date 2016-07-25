@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Emobdy</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <h1>Embody</h1>
+    <p>Prevent mental exhaustion, eye strain, physical discomfort, and emotional disconnection during computer use by taking a break to walk, stretch, and meditate.
+    </p>
+    <form class="selectors">
+      <label>How often would you like to receive Embody break reminders?</label>
+      <br>
+      <span>Every</span>
+      <input type="number" id="time" min="30" max="90" step="10" value="30">
+      <span> Minutes</span>
+      <br><br>
+      <label>How would you like to be notified?</label>
+      <br>
+      <input type="checkbox" class="checkbox" name="modal" value="modal" checked> Webpage Alert<br>
+      <input type="checkbox" class="checkbox" name="notification" value="notification"> Desktop Alert
+      <br><br>
+      <button type="button" name="button" id="update">Update</button>
+      <button type="button" name="button" id="off">Turn Off</button>
+    </form>
+  </body>
+</html>

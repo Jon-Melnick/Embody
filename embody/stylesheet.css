@@ -1,0 +1,15 @@
+body {
+  width: 500px;
+  background-image: url('http://res.cloudinary.com/arkean/image/upload/a_180/v1469411690/bg2_zure55.jpg');
+  background-size: cover;
+  color: white;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+button {
+  
+}
