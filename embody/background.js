@@ -17,7 +17,7 @@ countdown = function (inTime, inNotifStyle) {
         notification();
       };
     }
-  }, time * 100)
+  }, time * 60000)
 };
 
 // automatically starts a timer
