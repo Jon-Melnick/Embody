@@ -11,5 +11,32 @@ h1 {
 }
 
 button {
-  
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  margin: 20px 30px 30px 30px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  font: bold 12px/25px Arial, sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+  -moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+  box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  color: #000000;
+  background: #fff;
+  background: -moz-linear-gradient(top,  #fff 0%, #39a0be 60%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(60%,#39a0be));
+  background: -o-linear-gradient(top,  #fff 0%,#39a0be 60%);
+  background: -ms-linear-gradient(top,  #fff 0%,#39a0be 60%);
+  background: linear-gradient(top,  #fff 0%,#39a0be 60%);
 }

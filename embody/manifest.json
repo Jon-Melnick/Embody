@@ -3,7 +3,7 @@
   "version": "1",
   "manifest_version": 2,
 
-  "description": "To encourage mindful use of technology and decrease mental exhaustion and physical and emotional disconnection from onself during prolonged use of electronics.",
+  "description": "Encourage mindful use of tech & decrease mental exhaustion & emotional disconnection from oneself during prolonged use of it.",
 
   "background": {
     "page": "background.html"
