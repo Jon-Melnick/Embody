@@ -17,7 +17,7 @@ countdown = function (inTime, inNotifStyle) {
         notification();
       };
     }
-  }, time * 6000)
+  }, time * 60000)
 };
 
 // automatically starts a timer
@@ -34,6 +34,7 @@ notification = function() {
     };
     deskNotif = chrome.notifications.create("Embody", options, ()=>{});
     // chrome.notifications.onButtonClicked.addListener(handleNotifBtn);
+    countdown();
 };
 
 chrome.extension.onMessage.addListener(
